@@ -1,8 +1,0 @@
-# Calculate the power of a number using `**`. 
-
-base = 2
-exponent = 3
-
-result = base ** exponent
-
-print("Power =", result)

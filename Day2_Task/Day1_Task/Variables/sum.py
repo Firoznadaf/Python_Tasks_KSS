@@ -1,6 +1,0 @@
-#  Create a variable storing your name and print it. 
-
-a = 10
-b = 20
-
-print("Sum =", a + b)
