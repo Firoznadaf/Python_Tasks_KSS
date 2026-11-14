@@ -1,0 +1,3 @@
+Today I learned Python.
+I practiced file handling.
+I completed Day 8 tasks
