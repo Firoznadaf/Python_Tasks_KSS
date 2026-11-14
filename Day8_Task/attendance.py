@@ -1,17 +1,18 @@
-# Student Attendance Record 
+import os
+
+# get the folder where the Python program is saved
+folder = os.path.dirname(os.path.abspath(__file__))
+
+# create the file path
+file_path = os.path.join(folder, "attendance.txt")
 
 name = input("Enter student name: ")
 
-# file open append mode
-file = open("attendance.txt", "a")
+# write attendance
+with open(file_path, "a") as file:
+    file.write(name + "\n")
 
-# write a student name
-file.write(name + "\n")
-
-file.close()
-
-# Read and display the file
-file = open("attendance.txt", "r")
-
-print("\nAttendance Records:")
-print(file.read())
+# read attendance
+with open(file_path, "r") as file:
+    print("\nAttendance Records:")
+    print(file.read())
