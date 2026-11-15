@@ -16,6 +16,12 @@ Day 4: Strings, Functions
 
 Day 5: Recursive Functions, Modules using random and math, Creating your own module(Calculator project), Pakages(utilities contain two modules)
   ● Basic Python Codes
+  
+Day 6: Exception Handling
+
+Day 7: Basic Number Programs
+
+Day 8: File Handling
 
 🚀 Getting Started
 
