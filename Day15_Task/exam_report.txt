@@ -1,0 +1,17 @@
+EXAM REPORT
+
+  Name  Marks Grade
+ Firoz     39  Fail
+Akshay     86     B
+ Kasim     62     C
+ Yasin     31  Fail
+ Kiran     40     D
+  Amit     49     D
+  Tony     37  Fail
+  Mark     45     D
+ Pooja     41     D
+  John     17  Fail
+
+Average Marks: 44.7
+Highest Marks: 86
+Lowest Marks: 17

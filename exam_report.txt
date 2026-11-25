@@ -1,0 +1,17 @@
+EXAM REPORT
+
+ Name  Marks Grade
+Rahul     77     B
+Priya     92     A
+ Arun     94     A
+Sneha     42     D
+Kiran     50     D
+ Amit      3  Fail
+ Neha     74     C
+ Ravi     44     D
+Pooja     72     C
+ John     22  Fail
+
+Average Marks: 57.0
+Highest Marks: 94
+Lowest Marks: 3

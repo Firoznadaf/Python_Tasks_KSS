@@ -1,0 +1,7 @@
+Student Results
+Firoz: 85
+Akshay: 45
+Arun: 65
+Kasim: 90
+Kiran: 35
+Average Marks: 64.0
