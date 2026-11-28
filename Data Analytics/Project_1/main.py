@@ -1,4 +1,5 @@
-#  Project: Railway Gauge Trends
+
+#  Project Title: Railway Gauge Trends
 
 #importing modules 
 import pandas as pd
@@ -12,7 +13,12 @@ graph_folder = os.path.join(project_folder, "graphs")
 
 os.makedirs(graph_folder, exist_ok=True)
 
-# Scenario 1: Load and Understand the Dataset
+# Scenario-1--Basic Data Loading & Cleaning
+
+# Load the dataset into a pandas DataFrame
+# Display the first 5 rows and column names
+# Check for missing values and replace them with 0
+# Convert all gauge columns (Broad, Metre, Narrow, Total) to numeric types
 
 df = pd.read_csv("railway_gauges 1.csv")
 
@@ -123,7 +129,7 @@ plt.savefig(os.path.join(graph_folder, "gauge_contribution_pie.png"))
 plt.show()
 
 
-# Scenario 5: Gauge Trend Analysis
+# Scenario 5: Advanced Analysis + Multiple Graphs
 
 df['Broad Gauge %'] = np.where(
     df['Total'] != 0,
