@@ -18,7 +18,7 @@ os.makedirs(graph_folder, exist_ok=True)
 # Load the dataset into a pandas DataFrame
 # Display the first 5 rows and column names
 # Check for missing values and replace them with 0
-# Convert all gauge columns (Broad, Metre, Narrow, Total) to numeric types
+# Convert all gauge columns broad, metre, narrow, total to numeric types
 
 df = pd.read_csv("railway_gauges 1.csv")
 
