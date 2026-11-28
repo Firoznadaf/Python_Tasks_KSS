@@ -13,7 +13,7 @@ graph_folder = os.path.join(project_folder, "graphs")
 
 os.makedirs(graph_folder, exist_ok=True)
 
-# Scenario-1--Basic Data Loading & Cleaning
+# Scenario-1 Basic Data Loading & Cleaning
 
 # Load the dataset into a pandas DataFrame
 # Display the first 5 rows and column names
